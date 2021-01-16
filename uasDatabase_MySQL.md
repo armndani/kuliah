@@ -2,7 +2,7 @@
 Membuat database dengan MySQL
 
 ## Soal
- 1. Buatlah database dengan nama Perkuliahan, Buatlah tabel-tabel berikut.
+ 1. Buatlah database dengan nama Perkuliahan, Buatlah tabel-tabel berikut.<br>
 	 a). Tabel mahasiswa, dengan struktur tabel sbb.
 		 
     |Nama kolom|Type  | ket|
