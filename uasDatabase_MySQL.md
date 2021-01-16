@@ -74,7 +74,7 @@ Membuat database dengan MySQL
     b). `CREATE TABLE matakuliah(id_mtk VARCHAR(3) PRIMARY KEY, nama_mtk VARCHAR(30) NOT NULL, sks INT NOT NULL, semester INT NOT NULL);`<br>
     c). `CREATE TABLE tblNilai(kdmhs VARCHAR(10), id_mtk VARCHAR(3), nilai INT NOT NULL, FOREIGN KEY (kdmhs) REFERENCES mahasiswa(kdmhs), FOREIGN KEY (id_mtk) REFERENCES matakuliah(id_mtk));` 
  2. null
- 3. ERD Perkuliahan. <br>
+ 3. ERD Perkuliahan. <br><br>
     ![ERD Perkuliahan](https://github.com/bayiPetani/kuliah/blob/main/images/erd.png)
  4. a). `INSERT INTO mahasiswa VALUES ('11001', 'Andi Mardian', 'Selong', 'L', '2000-02-12'), ('12013', 'Suparman', 'Sakra', 'L', '2001-08-10'), ('10202', 'Jonny Deep', 'Rensing', 'L', '2000-03-11'), ('12501', 'Umi Nafisa', 'Labuhan', 'P', '1998-01-20'), ('23300', 'Lalih Hayati', 'Pancor', 'P', '1999-02-21');` <br>
     b). `INSERT INTO matakuliah VALUES ('MK1', 'Database', 3, 3), ('MK2', 'Pemrograman Web', 2, 3), ('MK3', 'Statistik', 3, 3);`<br>
